@@ -1,0 +1,3 @@
+
+#!/bin/bash
+ls -F -t | tr "\n" "," | sed 's/,$/ /' | tr " " "\n"
